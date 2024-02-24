@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1708109478541" clover="3.2.0">
-  <project timestamp="1708109478541" name="All files">
-    <metrics statements="188" coveredstatements="165" conditionals="39" coveredconditionals="37" methods="19" coveredmethods="16" elements="246" coveredelements="218" complexity="0" loc="188" ncloc="188" packages="8" files="25" classes="25"/>
+<coverage generated="1708802458998" clover="3.2.0">
+  <project timestamp="1708802458998" name="All files">
+    <metrics statements="210" coveredstatements="180" conditionals="38" coveredconditionals="37" methods="19" coveredmethods="16" elements="267" coveredelements="233" complexity="0" loc="210" ncloc="210" packages="9" files="28" classes="28"/>
     <package name="04-bis-javascript-utils">
       <metrics statements="1" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="commitlint.config.js" path="/Users/franco.dileo/Desktop/elite-web-developer-course/04-bis-javascript-utils/commitlint.config.js">
+      <file name="commitlint.config.cjs" path="/Users/franco.dileo/Desktop/elite-web-developer-course/04-bis-javascript-utils/commitlint.config.cjs">
         <metrics statements="1" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
       </file>
     </package>
     <package name="04-bis-javascript-utils.src">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/Users/franco.dileo/Desktop/elite-web-developer-course/04-bis-javascript-utils/src/index.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
     <package name="04-bis-javascript-utils.src.array">
@@ -276,17 +278,49 @@
         <line num="3" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="04-bis-javascript-utils.src.types">
-      <metrics statements="7" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="helpers.ts" path="/Users/franco.dileo/Desktop/elite-web-developer-course/04-bis-javascript-utils/src/types/helpers.ts">
-        <metrics statements="7" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+    <package name="04-bis-javascript-utils.src.timing">
+      <metrics statements="19" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/franco.dileo/Desktop/elite-web-developer-course/04-bis-javascript-utils/src/timing/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="throttle.ts" path="/Users/franco.dileo/Desktop/elite-web-developer-course/04-bis-javascript-utils/src/timing/throttle.ts">
+        <metrics statements="18" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="04-bis-javascript-utils.src.types">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="helpers.ts" path="/Users/franco.dileo/Desktop/elite-web-developer-course/04-bis-javascript-utils/src/types/helpers.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/franco.dileo/Desktop/elite-web-developer-course/04-bis-javascript-utils/src/types/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
     </package>
   </project>
