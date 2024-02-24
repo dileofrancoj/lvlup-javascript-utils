@@ -20,7 +20,7 @@ module.exports = {
     'dist',
     'vite.config.ts',
     '.eslintrc.cjs',
-    'commitlint.config.js',
+    'commitlint.config.cjs',
     '**/__tests__/**'
   ], // <<< ignore all files in test folder
   parserOptions: {

@@ -1,5 +1,5 @@
 {
-  "name": "04-bis-javascript-utils",
+  "name": "lvlup-javascript-utils",
   "version": "0.0.1",
   "type": "module",
   "main": "./dist/my-lib.umd.cjs",
