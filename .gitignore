@@ -24,4 +24,6 @@ dist-ssr
 
 # stryker temp files
 .stryker-tmp
-coverage/**
+
+# Ignorar archivos de cobertura HTML específicos dentro de la carpeta coverage
+coverage
