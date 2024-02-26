@@ -13,6 +13,12 @@ export default defineConfig({
     target:'es6',
     minify: false
   },
-  plugins: [dts()],
+  plugins: [dts({
+    beforeWriteFile: (filePath, content) => ({
+      filePath: filePath.replace('src/*', 'index.d.ts'),
+      content,
+    }),
+    outDir: 'dist'
+  })],
 
 });

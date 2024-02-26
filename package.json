@@ -1,9 +1,9 @@
 {
   "name": "lvlup-javascript-utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "main": "./dist/my-lib.umd.cjs",
-  "typings": "./dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/my-lib.js",
